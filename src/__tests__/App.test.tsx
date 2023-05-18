@@ -4,6 +4,6 @@ import App from '../App';
 
 test('renders React App text', () => {
   render(<App />);
-  const element = screen.getByText(/Monolith/i);
+  const element = screen.getByText(/Packaged/i);
   expect(element).toBeInTheDocument();
 });

@@ -1593,6 +1593,43 @@
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
   integrity sha512-Hcv+nVC0kZnQ3tD9GVu5xSMR4VVYOteQIr/hwFPVEvPdlXqgGEuRjiheChHgdM+JyqdgNcmzZOX/tnl0JOiI7A==
 
+"@mfeao/dashboard@^0.1.0":
+  version "0.1.0"
+  resolved "https://npm.pkg.github.com/download/@mfeao/dashboard/0.1.0/928c2aa7c3b214fa4d5d7f8c05a38cc3c105cdf9#928c2aa7c3b214fa4d5d7f8c05a38cc3c105cdf9"
+  integrity sha512-01I78HrrrF2ND+lgGtbxb2rN+p2h5qKoKWdd6k6wvITGvKAZBarVmLrZ+zhx1syl0aA5c9hvoZdymxVLe62vUQ==
+  dependencies:
+    "@headlessui/react" "^1.7.14"
+    "@heroicons/react" "^2.0.18"
+    "@mfeao/uikit" "^0.1.0"
+
+"@mfeao/feed@^0.1.0":
+  version "0.1.0"
+  resolved "https://npm.pkg.github.com/download/@mfeao/feed/0.1.0/0f65dd6c1a18474adb7ce913ae5d92d56779d353#0f65dd6c1a18474adb7ce913ae5d92d56779d353"
+  integrity sha512-XeQDZDHBbvnWUy2lQZH0Q5OHAdrMzJ+djGeg1ZXBxc0rgRzH1ZCjgCuh3ISEOxHQItearwiC7bpvY4T0AMXRzw==
+  dependencies:
+    "@headlessui/react" "^1.7.14"
+    "@heroicons/react" "^2.0.18"
+    "@mfeao/uikit" "^0.1.0"
+    "@types/lodash" "^4.14.194"
+    "@types/qs" "^6.9.7"
+    axios "^1.4.0"
+    lodash "^4.17.21"
+    qs "^6.11.2"
+
+"@mfeao/planning@^0.1.0":
+  version "0.1.0"
+  resolved "https://npm.pkg.github.com/download/@mfeao/planning/0.1.0/51340a4515bcb889831f984b78363087dcaca16d#51340a4515bcb889831f984b78363087dcaca16d"
+  integrity sha512-sRXqO/WlXJBfw7hhpPQjmGIx33AXqOvrdVXlQbQupOSF4I4LA7zZWaW/0LS5pvwaZdR2sP4a+U41lbsYvBJeuw==
+  dependencies:
+    "@headlessui/react" "^1.7.14"
+    "@heroicons/react" "^2.0.18"
+    "@mfeao/uikit" "^0.1.0"
+
+"@mfeao/uikit@^0.1.0":
+  version "0.1.0"
+  resolved "https://npm.pkg.github.com/download/@mfeao/uikit/0.1.0/7e1e8c5d6f3a9f61718aaedafa1f17ea4b40abc3#7e1e8c5d6f3a9f61718aaedafa1f17ea4b40abc3"
+  integrity sha512-wQMhGhxSdK58pk6wGDhn2HoExN/XWwhPnxO2O8iUvkdMQXo5/BIMWJXz203s53jenRuzHyZwfzxEY/S6xsLVwA==
+
 "@nicolo-ribaudo/eslint-scope-5-internals@5.1.1-v1":
   version "5.1.1-v1"
   resolved "https://registry.yarnpkg.com/@nicolo-ribaudo/eslint-scope-5-internals/-/eslint-scope-5-internals-5.1.1-v1.tgz#dbf733a965ca47b1973177dc0bb6c889edcfb129"

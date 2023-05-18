@@ -1,4 +1,4 @@
-import { feedReducers } from '~/modules/feed/redux';
+import { reducers as feedReducers } from '@mfeao/feed';
 
 const reducers = {
   ...feedReducers,
