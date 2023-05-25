@@ -1,12 +1,9 @@
+import { Layout as DashboardLayout, Dashboard, Overview, Reports } from '@mfeao/dashboard';
+import feedRoutes from '@mfeao/feed';
+import planningRoutes from '@mfeao/planning';
 import React from 'react';
 import type { RouteObject } from 'react-router-dom';
 import { DefaultLayout } from '~/layouts';
-import { DashboardLayout } from '~/modules/dashboard/layouts';
-import { Dashboard, Overview, Reports } from '~/modules/dashboard/pages';
-import { FeedLayout } from '~/modules/feed/layouts';
-import { Feed, Post } from '~/modules/feed/pages';
-import { PlanningLayout } from '~/modules/planning/layouts';
-import { Planning, Experiments, Archive } from '~/modules/planning/pages';
 
 const routes: RouteObject[] = [
   {
@@ -31,38 +28,8 @@ const routes: RouteObject[] = [
           },
         ],
       },
-      {
-        path: 'planning',
-        element: React.createElement(PlanningLayout),
-        children: [
-          {
-            index: true,
-            element: React.createElement(Planning),
-          },
-          {
-            path: 'experiments',
-            element: React.createElement(Experiments),
-          },
-          {
-            path: 'archive',
-            element: React.createElement(Archive),
-          },
-        ],
-      },
-      {
-        path: 'feed',
-        element: React.createElement(FeedLayout),
-        children: [
-          {
-            index: true,
-            element: React.createElement(Feed),
-          },
-          {
-            path: ':postSlug',
-            element: React.createElement(Post),
-          },
-        ],
-      },
+      ...planningRoutes,
+      ...feedRoutes,
     ],
   },
 ];

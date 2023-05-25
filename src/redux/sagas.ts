@@ -1,5 +1,5 @@
 import { all } from 'redux-saga/effects';
-import { feedSagas } from '~/modules/feed/redux';
+import { sagas as feedSagas } from '@mfeao/feed';
 
 export default function* sagas() {
   yield all([

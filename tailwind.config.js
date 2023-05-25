@@ -4,6 +4,10 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 module.exports = {
   content: [
     './public/index.html',
+    './node_modules/@mfeao/uikit/**/*.{js,jsx,ts,tsx}',
+    './node_modules/@mfeao/dashboard/**/*.{js,jsx,ts,tsx}',
+    './node_modules/@mfeao/feed/**/*.{js,jsx,ts,tsx}',
+    './node_modules/@mfeao/planning/**/*.{js,jsx,ts,tsx}',
     './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {

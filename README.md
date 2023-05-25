@@ -1,4 +1,4 @@
-# Getting Started with Monolith
+# Getting Started with Packaged
 
 ## Available Scripts
 
